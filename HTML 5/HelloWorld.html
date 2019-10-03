@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+</head>
+<body>
+Hello World <br>
+Hello Sandeep<br>
+<img id="img1" src="C:\Users\DAC\Downloads\pppp.jpg"  height="500px" width="700px" alt="something is always wrong">
+<a href="https://google.com">click kam </a>
+<a href="#down">go downtown</a>
+<p>
+next →← prev
+C# operators
+An operator is simply a symbol that is used to perform operations. There can be many types of operations like arithmetic, logical, bitwise etc.
+
+There are following types of operators to perform different types of operations in C# language.
+
+Arithmetic Operators
+Relational Operators
+Logical Operators
+Bitwise Operators
+Assignment Operators
+Unary Operators
+Ternary Operators
+Misc Operators
+CSHARP Operators 1
+Precedence of Operators in C#
+The precedence of operator specifies that which operator will be evaluated first and next. The associativity specifies the operators direction to be evaluated, it may be left to right or right to left.
+
+
+Let's understand the precedence by the example given below:
+
+int data= 10+ 5*5  
+The "data" variable will contain 35 because * (multiplicative operator) is evaluated before + (additive operator).
+
+
+ 
+The precedence and associativity of C# operators is given below:
+
+Category (By Precedence)	Operator(s)	Associativity
+Unary	+ - ! ~ ++ -- (type)* & sizeof	Right to Left
+Additive	+ -	Left to Right
+Multiplicative	% / *	Left to Right
+Relational	< > <= >=	Left to Right
+Shift	<< >>	Left to Right
+Equality	== !=	Right to Left
+Logical AND	&	Left to Right
+Logical OR	|	Left to Right
+Logical XOR	^	Left to Right
+Conditional OR	||	Left to Right
+Conditional AND	&&	Left to Right
+Null Coalescing	??	Left to Right
+Ternary	?:	Right to Left
+Assignment	= *= /= %= += - = <<= >>= &= ^= |= =>	Right to Left
+Next TopicC# Keywords
+
+
+← prevnext →
+
+
+ 
+Please Share
+facebook twitter google plus pinterest
+Join Javatpoint Test Series
+Placement Papers
+TCS
+HCL
+Infosys
+IBM
+Accenture
+AMCAT
+eLitmas
+Java
+Python
+C Programming
+Networking
+Bank PO/Clerk
+UPSSSC
+Government Exams
+SSC
+Civil Services
+SBI
+GATE
+NEET
+CAT
+Railway
+CTET
+IIT JEE
+Learn Latest Tutorials
+
+
+using System;  
+  public class FactorialExample  
+   {  
+     public static void Main(string[] args)  
+      {  
+       int i,fact=1,number;      
+       Console.Write("Enter any Number: ");      
+       number= int.Parse(Console.ReadLine());     
+       for(i=1;i<=number;i++){      
+        fact=fact*i;      
+       }      
+       Console.Write("Factorial of " +number+" is: "+fact);    
+     }  
+  }  
+Output:
+
+Enter any Number: 6
+Factorial of 6 is: 720
+
+<a id="down" href="#img1">Go Up Everyone</a>
+</body>
+</html>
